@@ -13,10 +13,9 @@ const About = ({isDarkMode}) => {
         </div>
         <div className="flex-1">
             <p className="mb-10 max-w-2xl font-Ovo">
-                I am a Research and Teaching Assistant at the University of Ghana.
-                I teach Introduction to Database Fundamentals. I'm currently reviewing
-                papers on Iris Recognition to determine the effect of image variations
-                on the performance of Iris Recognition Systems. My research interest is in Vision Transformers. I love to take photograhs.
+            Software Engineer with expertise in AI/ML and backend development. Evaluated
+            advanced AI models from Microsoft and Mindrift AI using Reinforcement Learning with Human Feedback
+            (RLHF). Regularly practices data structures and algorithms.
 
             </p>
 
@@ -26,9 +25,9 @@ const About = ({isDarkMode}) => {
                     hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black
                      dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
                     key={index}>
-                        <Image src={isDarkMode? iconDark : icon} alt={title} className="w-7 mt-3" />
+                        <Image src={isDarkMode ? iconDark : icon} alt={title} className="w-7 mt-3" />
                         <h3 className="my-4 font-semibold text-gray-700 dark:text-white" >{title}</h3>
-                        <p className="text-gray-600 text-sm dark: text-white/80"> {description} </p>
+                        <p className="text-gray-600 text-sm dark:text-white/80"> {description} </p>
                     </li>
                 ))}
             </ul>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { assets } from "@/assets/assets";
 
 const Header = () => {
+  const googleLink = "https://docs.google.com/document/d/1a4hmmUFrYIzQze8bzkTrwNHeG-nqT1rU-QXdS_ktSNo/export?format=pdf"
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       <div>
@@ -21,10 +22,9 @@ const Header = () => {
         Research and Teaching Assistant at University of Ghana
       </h1>
       <p>
-        I teach Introduction to Database Fundamentals. I'm currently reviewing
-        papers on Iris Recognition to determine the effect of image variations
-        on the performance of Iris Recognition Systems. My research interest is
-        in Vision Transformers. I love to take photograhs.
+        Machine Learning Researcher with interest in Computer Vision. Currently exploring Convolutional Neurual Network and 
+        Vision Transformer models.
+
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
@@ -36,12 +36,12 @@ const Header = () => {
         </a>
 
         <a
-          href="/public/sample-resume.pdf"
+          href={googleLink}
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex
         items-center gap-2 bg-white dark:text-black"
         >
-          my resume <Image src={assets.download_icon} alt="" className="w-4" />{" "}
+          my resume <Image src={assets.download_icon} alt="" className="w-4" />
         </a>
       </div>
     </div>

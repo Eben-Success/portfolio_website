@@ -101,18 +101,18 @@ export const workData = [
 
 const linkedin = "https://www.linkedin.com/in/eben-success/details/experience/"
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Research', description: 'Web development is the process of building, programming...', link: linkedin },
-    { icon: assets.mobile_icon, title: 'Machine Learning', description: 'Mobile app development involves creating software for mobile devices...', link: linkedin },
-    { icon: assets.ui_icon, title: 'Software Engineering', description: 'UI/UX design focuses on creating a seamless user experience...', link: linkedin },
-    { icon: assets.graphics_icon, title: 'Teaching', description: 'Creative design solutions to enhance visual communication...', link: linkedin },
+    { icon: assets.web_icon, title: 'Research', description: 'Reviewed papers on how variations—such as occlusions, head pose, and imaging...', link: linkedin },
+    { icon: assets.mobile_icon, title: 'Machine Learning', description: 'Built an eCheque system that uses Optical Character Recognition...', link: linkedin },
+    { icon: assets.ui_icon, title: 'Software Engineering', description: 'Implemented REST APIs using ASP.NET core with clean architecture...', link: linkedin },
+    { icon: assets.graphics_icon, title: 'Teaching', description: 'Led tutorials in Introduction to Database Fundamentals at the University...', link: linkedin },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python C# TypeScript, Java, C++' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Interests', description: 'Vision Transformer Models (ViTs)' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.figma, assets.vscode, assets.firebase, assets.mongodb, assets.git
 ];

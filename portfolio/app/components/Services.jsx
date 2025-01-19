@@ -9,9 +9,8 @@ const Services = () => {
       <h2 className="text-center text-5xl font-Ovo">My Expertise</h2>
 
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
-        I am a research and teaching assistant at the University of Ghana. I
-        work on ml and swe projects. I am looking to work with Apple and Nvidia
-        in the US.
+        Experience in Research in Computer Vision, data science, Backend development with .NET with clean architecture.
+        
       </p>
 
       <div className="grid grid-cols-auto gap-6 my-10">
